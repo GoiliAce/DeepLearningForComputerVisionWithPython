@@ -67,10 +67,7 @@ print("[INFO] evalute")
 y_predict = predict(X_test, W)
 print(classification_report(y_test, y_predict))
 
-#plot data
-#plt.figure()
-#plt.scatter(X_test[:, 0], X_test[:, 1], marker='o')
-#plt.show()
+
 
 #plot loss function
 plt.figure()
